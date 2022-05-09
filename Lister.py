@@ -1,4 +1,3 @@
-from cmath import exp
 from selenium import webdriver
 import time
 import os
