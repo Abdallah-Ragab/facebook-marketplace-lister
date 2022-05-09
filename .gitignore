@@ -1,0 +1,7 @@
+cookies.json
+products.json
+scrape.py
+run.py
+"accounts copy.json"
+backup/*
+_pycache_/*
