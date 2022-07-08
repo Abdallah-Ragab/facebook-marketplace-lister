@@ -21,6 +21,7 @@ class Element:
     def element(self):
         xpath = self.xpath
         # print("%s :: %s" % (self.name, xpath))
+        # print("%s :: %s" % (self.name, xpath))
         element_type = self.pathes[self.name]['type']
         if element_type == 'button' :
             element = WebDriverWait(self.driver, 30).until(
